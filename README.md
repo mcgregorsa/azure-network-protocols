@@ -26,7 +26,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Establish a Remote Desktop Connection to the Windows Virtual Machine (windows-vm).
 - Install [Wireshark](https://www.wireshark.org/).
 - Open Wireshark and begin unfiltered packet capture.
-- Step 4
 
 <p>
 <img src="https://github.com/user-attachments/assets/e39eebe2-7af4-4517-8875-9d4aa5d9c7bb" height="80%" width="80%" alt="High-Level Steps Reference Image"/>
@@ -34,11 +33,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
+- Filter Wireshark for ICMP (Internet Control Message Protocol).
+- Retrieve linux-vm private IP address and ping it from the Command Line Interface(CLI = Powershell(Win), Terminal(Mac), or Bash(Lin)).
+- Observe the network traffic.
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://github.com/user-attachments/assets/6ce8a734-f615-485d-98c2-2eaa3e0a175c" height="80%" width="80%" alt="ICMP Filtered in Wireshark and Network ping"/>
 </p>
 <br />
 
