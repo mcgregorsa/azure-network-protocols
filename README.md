@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Filter Wireshark for ICMP (Internet Control Message Protocol).
 - Retrieve linux-vm private IP address and ping it from the Command Line Interface(CLI = Powershell(Win), Terminal(Mac), or Bash(Lin)).
-- Observe the network traffic.
+- Observe the network traffic in Wireshark and CLI.
 
 <p>
 <img src="https://github.com/user-attachments/assets/6ce8a734-f615-485d-98c2-2eaa3e0a175c" height="80%" width="80%" alt="ICMP Filtered in Wireshark and Network ping"/>
