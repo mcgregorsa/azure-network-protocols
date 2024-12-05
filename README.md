@@ -22,10 +22,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
+- Create 2 Virtual Machines (VM), one Windows and one Linux, on the same Virtual Network (VNet).
+- Establish a Remote Desktop Connection to the Windows Virtual Machine (windows-vm).
+- Install [Wireshark](https://www.wireshark.org/).
+- Open Wireshark and begin unfiltered packet capture.
 - Step 4
+
+<p>
+<img src="https://github.com/user-attachments/assets/e39eebe2-7af4-4517-8875-9d4aa5d9c7bb" height="80%" width="80%" alt="High-Level Steps Reference Image"/>
+</p>
 
 <h2>Actions and Observations</h2>
 
