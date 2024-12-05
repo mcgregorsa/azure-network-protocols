@@ -49,6 +49,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe traffic in Wireshark and CLI.
 - Stop ping by typing 'exit' in CLI.
 
+<p>
+<img src="https://github.com/user-attachments/assets/ebb48b06-dc8c-456b-a442-a92309dfd46e" height="80%" width="80%" alt="ICMP perpetual ping with and without Firewall rule"/>
+</p>
 <br />
 
 <p>
