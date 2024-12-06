@@ -34,7 +34,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 - Filter Wireshark for ICMP (Internet Control Message Protocol).
-- Retrieve linux-vm private IP address and ping it from the Command Line Interface(CLI = Powershell(Win), Terminal(Mac), or Bash(Lin)).
+- Retrieve linux-vm private IP address and ping it from the Command Line Interface(CLI).
+  - CLI = Powershell(Win), Terminal(Mac), or Bash(Lin)).
 - Observe the network traffic in Wireshark and CLI.
 
 <p>
@@ -43,7 +44,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 - Initiate continuous ping (ping -t) from windows-vm to linux-vm.
-- Open linux-vm Network Security Group(NSG) in Azure and add rule to disple inbound ICMP.
+- Open linux-vm Network Security Group(NSG) in Azure and add rule to disable inbound ICMP traffic.
 - Observe traffic in Wireshark and CLI.
 - Delete NSG rule to re-enable ICMP traffic.
 - Observe traffic in Wireshark and CLI.
@@ -76,7 +77,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Save .bat to that location.
 - In CLI use 'cd' command to change directory to ProgramData folder. (see image.)
   - Use 'ls command to list contents and verify .bat location.
-  - Run .bat using the command '.\dhcp.bat.
+  - Run .bat using the command '.\dhcp.bat'.
 - The remote desktop connection will be lost and will reconnect as the IP is released and renewed.
 - Observe the DHCP traffic in Wireshark of the release and renewal of the IP.
 
