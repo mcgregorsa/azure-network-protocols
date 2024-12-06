@@ -50,7 +50,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Stop ping by typing 'exit' in CLI.
 
 <p>
-<img src="https://github.com/user-attachments/assets/ebb48b06-dc8c-456b-a442-a92309dfd46e" height="80%" width="80%" alt="ICMP perpetual ping with and without Firewall rule"/>
+<img src="https://github.com/user-attachments/assets/ebb48b06-dc8c-456b-a442-a92309dfd46e" height="80%" width="80%" alt="SSH Visuals"/>
 </p>
 <br />
 
@@ -65,5 +65,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://github.com/user-attachments/assets/74ca821e-2722-4a3c-86ef-7f4fa026088f" height="80%" width="80%" alt="SSH Observations"/>
 </p>
-
 <br />
+
+- Filter for DHCP (Dynamic Host Configuration Protocol).
+- Open Notepad and create a .bat file. See image for contents.
+  - Save file as dhcp.bat
+  - In explorer, view>hidden to see ProgramData folder.
+  - Save .bat to that location.
+- In CLI use 'cd' command to change directory to ProgramData folder. (see image.)
+  - Use 'ls command to list contents and verify .bat location.
+  - Run .bat using the command '.\dhcp.bat.
+- The remote desktop connection will be lost and will reconnect as the IP is released and renewed.
+- Observe the DHCP traffic in Wireshark of the release and renewal of the IP.
+
+<p>
+<img src="https://github.com/user-attachments/assets/f5bb27af-6d5a-4ca1-a806-eb28b60ee5f0" height="80%" width="80%" alt="DHCP Visuals"/>
+</p>
