@@ -99,7 +99,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Filter Wireshark for RDP (Remote Desktop Protocol).
   - RDP use TCP Port 3389 by default.
-- You will observe conctant traffic spam due to the RDP connection you have set up.
+- You will observe constant traffic spam due to the RDP connection you have set up.
 
 <p>
 <img src="https://github.com/user-attachments/assets/e679380c-30c5-4adf-93ee-2219b96ef11d" height="80%" width="80%" alt="RDP Traffic"/>
