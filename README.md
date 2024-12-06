@@ -93,5 +93,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Note the Disney branded 404.
 
 <p>
-<img src="https://github.com/user-attachments/assets/ed141ff2-7b79-434e-a8f9-24db1809d06a" height="70% width="70%" alt="DNS Visuals"/>
+<img src="https://github.com/user-attachments/assets/ed141ff2-7b79-434e-a8f9-24db1809d06a" height="80%" width="80%" alt="DNS Visuals"/>
+</p>
+<br />
+
+- Filter Wireshark for RDP (Remote Desktop Protocol).
+  - RDP use TCP Port 3389 by default.
+- You will observe conctant traffic spam due to the RDP connection you have set up.
+
+<p>
+<img src="https://github.com/user-attachments/assets/e679380c-30c5-4adf-93ee-2219b96ef11d" height="80%" width="80%" alt="RDP Traffic"/>
 </p>
