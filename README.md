@@ -54,10 +54,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
+- Filter for SSH in Wireshark.
+- From windows-vm SSH into linux-vm using CLI.
+  - command: ssh <username>@<private IP> example: ssh samlab2@10.0.0.5
+- Observe SSH traffic.
+- Change filter to tcp.port == 22.
+  - This allows viewing the acknowledgement in Wireshark as the connection is exited.
+- Exit SSH by typing 'exit' in CLI.
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/74ca821e-2722-4a3c-86ef-7f4fa026088f" height="80%" width="80%" alt="SSH Observations"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
