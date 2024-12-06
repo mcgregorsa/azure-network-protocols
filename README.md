@@ -54,7 +54,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-- Filter for SSH in Wireshark.
+- Filter Wireshark for SSH (Secure Shell).
+  - Note: Secure Shell uses TCP Port 22.
 - From windows-vm SSH into linux-vm using CLI.
   - command: ssh <username>@<private IP> example: ssh samlab2@10.0.0.5
 - Observe SSH traffic.
@@ -67,7 +68,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-- Filter for DHCP (Dynamic Host Configuration Protocol).
+- Filter Wireshark for DHCP (Dynamic Host Configuration Protocol).
+  - Note: DHCP uses UPD Ports 67 and 68.
 - Open Notepad and create a .bat file. See image for contents.
   - Save file as dhcp.bat
   - In explorer, view>hidden to see ProgramData folder.
