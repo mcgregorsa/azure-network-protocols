@@ -57,7 +57,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Filter Wireshark for SSH (Secure Shell).
   - Note: Secure Shell uses TCP Port 22.
 - From windows-vm SSH into linux-vm using CLI.
-  - command: ssh <username>@<private IP> example: ssh samlab2@10.0.0.5
+  - command: ssh <username>@<privateIPaddress> example: ssh samlab2@10.0.0.5
 - Observe SSH traffic.
 - Change filter to tcp.port == 22.
   - This allows viewing the acknowledgement in Wireshark as the connection is exited.
@@ -70,7 +70,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Filter Wireshark for DHCP (Dynamic Host Configuration Protocol).
   - Note: DHCP uses UPD Ports 67 and 68.
-- Open Notepad and create a .bat file. See image for contents.
+- Open Notepad and create a .bat file. (see image for contents.)
   - Save file as dhcp.bat
   - In explorer, view>hidden to see ProgramData folder.
   - Save .bat to that location.
@@ -82,4 +82,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
 <img src="https://github.com/user-attachments/assets/f5bb27af-6d5a-4ca1-a806-eb28b60ee5f0" height="80%" width="80%" alt="DHCP Visuals"/>
+</p>
+<br />
+
+- Filter Wireshark for DNS (Domain Name System Prototcol).
+  - Note: DNS uses TCP and UDP Port 53, but sometimes non-standard ports are used.
+- Use CLI command nslookup on disney.com and pixar.com. (see image.)
+- In browser, paste IP for Disney.
+  - Mordern browsers generally will not reolve an IP to a HostName and you will get a 404 page.
+  - Note the Disney branded 404.
+
+<p>
+<img src="https://github.com/user-attachments/assets/ed141ff2-7b79-434e-a8f9-24db1809d06a" height="70% width="70%" alt="DNS Visuals"/>
 </p>
